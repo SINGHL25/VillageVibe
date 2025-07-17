@@ -1,1 +1,15 @@
+{
+  "Rampur": {
+    "Location": "Uttar Pradesh",
+    "Famous For": "Pottery and Sugarcane",
+    "Population": 3500,
+    "Tradition": "Folk music, Charkha weaving"
+  },
+  "Nandgaon": {
+    "Location": "Maharashtra",
+    "Famous For": "Onion farming",
+    "Population": 2200,
+    "Tradition": "Bullock cart races"
+  }
+}
 
