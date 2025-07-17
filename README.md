@@ -45,3 +45,22 @@ villagevibe/
 │
 └── 📁 models/
     └── gpt_response_logic.py  (optional logic or OpenAI integration)
+
+
+    # 🏡 VillageVibe - A Digital Hub for Rural India
+
+Explore the beauty, culture, and creativity of villages with AI-enhanced interaction.
+
+## Features
+- 📖 Village Profiles
+- 🌾 Agricultural Tips
+- 🛍️ Market of Local Products
+- 🎉 Event Highlights
+- 📸 Image Gallery
+- 🤖 AI Chat for Traditions, Crops & More
+
+## How to Run
+```bash
+pip install -r requirements.txt
+streamlit run app/main.py
+
