@@ -1,3 +1,6 @@
+import os
+print("Current Working Directory:", os.getcwd())
+
 import streamlit as st
 from village_profile import village_info
 
