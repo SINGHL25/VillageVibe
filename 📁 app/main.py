@@ -1,5 +1,8 @@
 import os
 print("Current Working Directory:", os.getcwd())
+import sys
+import os
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
 import streamlit as st
 from village_profile import village_info
@@ -9,6 +12,8 @@ from app.market_zone import market_view
 from app.media_gallery import show_gallery
 from app.events import show_events
 from app.ai_bot import village_bot
+
+
 
 st.set_page_config(page_title="VillageVibe", layout="wide")
 
