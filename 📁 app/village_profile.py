@@ -6,7 +6,7 @@ def village_info():
     st.subheader("🏞️ Village Profiles")
 
     # Use relative path handling to prevent errors
-    data_path = os.path.join(os.path.dirname(__file__), "..", "data", "villages.json")
+    data_path = os.path.join(os.path.dirname(__file__), "..", "📁data", "villages.json")
     
     try:
         with open(data_path, "r") as f:
