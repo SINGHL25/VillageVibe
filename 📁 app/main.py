@@ -1,5 +1,6 @@
 import streamlit as st
-from app.village_profile import village_info
+from village_profile import village_info
+
 from app.agriculture import agri_tips
 from app.market_zone import market_view
 from app.media_gallery import show_gallery
